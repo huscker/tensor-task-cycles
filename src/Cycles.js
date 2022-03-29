@@ -32,7 +32,7 @@ export function iterationCount(a) {
   и верните итоговый результат.
 */
 export function symbolsReplace(message) {
-	let i = 0;
+	let i = 2;
 	do{
 		message = message.slice(0,i) + '_' + message.slice(i+1);
 		i+=3;
